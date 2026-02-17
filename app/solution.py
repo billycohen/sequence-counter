@@ -36,7 +36,7 @@ class SequenceCounter:
         target_sequence_length: int,
         max_count: int,
         valid_moves: List[tuple[int, int]],
-        count_me: Callable[int, bool],
+        count_me: Callable[[str], bool],
     ) -> None:
         self.keypad = keypad
         self.target_sequence_length = target_sequence_length
