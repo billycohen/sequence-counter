@@ -44,6 +44,7 @@ coverage.xml
 venv/
 ENV/
 env/
+.venv/
 
 # IDE
 .vscode/
@@ -55,3 +56,9 @@ env/
 # OS
 .DS_Store
 Thumbs.db
+
+# Ruff
+.ruff_cache/
+
+# Mypy
+.mypy_cache/
