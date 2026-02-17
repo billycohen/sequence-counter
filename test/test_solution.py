@@ -2,7 +2,6 @@
 Unit tests for the solution module.
 """
 
-import pytest
 from app.solution import main
 
 
